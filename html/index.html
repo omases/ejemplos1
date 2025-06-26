@@ -31,14 +31,40 @@
      <source src="https://audio-samples.github.io/samples/mp3/blizzard_unconditional/sample-0.mp3" type="audio/mpeg">   
     </audio>
 
-    <h3>formulario</h3>
-    <form action="#" method="post">
-       usario: <input type="text" name="usu" required><br>
-       Contraseña: <input type="password" name="pass" required><br>
+    <h3 style="color: blue;">formulario</h3>
+    <form action="https://tomcat.fullbyte.store/simpleplato/submit1" method="post">
+       Usuario: <input type="text" name="nombre" required><br>
+       Edad: <input type="number" name="edad" required><br>
+       Estado: <input type="checkbox" name="activo" value="Activo"  checked> Activo
        <input type="submit" value="registrar usuario">
+        </form>
+    <h3 style="color: brown;">formulario de registro de porgrmacion</h3>
+        <form action="https://tomcat.fullbyte.store/simpleplato/submit2" method="post">
 
-   
-    
-    </form>
+        <input type="text" name="nombre" placeholder="escriba su nombre" required><br>
+        <input type="password" name="password" placeholder="Contraseña" required><br>
+        <Genero:br>
+            <input type="radio" name="genero" value="masculin" checked> Masculino <br>
+            <input type="radio" name="genero" value="femenin" checked> Femenino <br>
+            <input type="radio" name="genero" value="ot" checked> Otro <br>
+        Pais: <br>
+        <select name="pais" required>
+            <option value="ar">Argentina</option>
+            <option value="ch">Chiles</option>
+            <option value="co">colombia</option>
+            <option value="mx">Mexico</option>
+            <option value="es">España</option> 
+        </select> <br>
+        Lenguajes que Domina: <br>
+        <input type="checkbox"  name="intereses" value="java"> JAVA <br>
+        <input type="checkbox"  name="intereses" value="php"> PHP <br>
+        <input type="checkbox"  name="intereses" value="C#"> C# <br>
+        <input type="checkbox"  name="intereses" value="py"> PYTHON <br>
+        Breve Descripcion del usuario <br>
+        <textarea name="descripcion" rows="4" cols="50"></textarea> <br>
+        <input type="submit" values="Enviar">
+        </form>
+
+
 </body>
 </html>
