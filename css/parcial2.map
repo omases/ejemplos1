@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "parcial2.css",
+	"sources": [
+		"../sass/parcial2.scss"
+	],
+	"sourcesContent": [
+		"$colorFondo: aqua;\r\n.control{\r\n    background-color: $colorFondo;\r\n    color: black;\r\n}\r\n.secundario{\r\n    background-color: #f2c5e5;\r\n    color: black;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";;AACA,AAAA,QAAQ,CAAA;EACJ,gBAAgB,EAFP,IAAI;EAGb,KAAK,EAAE,KAAK;CACf;;;AACD,AAAA,WAAW,CAAA;EACP,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;CACf"
+}

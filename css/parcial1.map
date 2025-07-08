@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "parcial1.css",
+	"sources": [
+		"../sass/parcial1.scss"
+	],
+	"sourcesContent": [
+		"ol, ul, html {\r\n    \r\n    margin: 5;\r\n    padding: 5;\r\n}"
+	],
+	"names": [],
+	"mappings": ";;AAAA,AAAA,EAAE,EAAE,EAAE,EAAE,IAAI,CAAC;EAET,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb"
+}

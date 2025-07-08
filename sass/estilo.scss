@@ -1,0 +1,59 @@
+
+@import "parcial1";
+@import "parcial2";
+
+$colordefondo: #9bc9a5;
+$colorDeTexto: darkblue;
+$TamayoFuente: 18px;
+$mifuente: Arial, Helvetica, sans-serif;
+$miAncho: 630px;
+$colorsuave: #90b8ec;
+
+body{
+    background-color: $colordefondo;
+    color: $colorDeTexto;
+    font-size: $TamayoFuente;
+    
+}
+#container{
+    font-family: $mifuente;
+    width: $miAncho;
+    background-color: $colorsuave;
+}
+h1{
+    $colorsuave: rgb(231, 136, 189) ;
+    background-color: $colorsuave;
+}
+a{
+    color: $colorsuave;
+}
+/* anidamiento/*/
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        display: block;
+        padding: 6px 12 px;
+        text-decoration: none;
+    }
+    font: {
+        family: helvetica, sans-serif;
+        size: 21px;
+        weight: bold;
+    }
+    text: {
+        align: center;
+        transform: uppercase;
+        overflow: hidden;
+    }
+
+}
+
+
+/*  vab ul  */

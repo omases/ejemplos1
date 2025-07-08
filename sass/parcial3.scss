@@ -1,0 +1,17 @@
+@import "parcial3";
+
+/* uso de directiva mixin   */
+
+
+@mixin nombre-culaquiera {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+/* para usar @mixin, se usa ka directiva @include*/ 
+
+.control2{
+    @include nombre-culaquiera;
+    background-color: aqua;
+}

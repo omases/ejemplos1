@@ -1,0 +1,86 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    width: 250px;
+    height: 110px;
+    position: relative;
+    display: block;
+    background: #bbbbbb;
+    border-radius: 100px;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4),inset 0px -5px 15px rgba(255, 255,255, 0.4);
+    cursor: pointer;    
+    transition: 0.4s;
+}
+label::after{
+    content: "";
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: linear-gradient(180deg,#dddcdc,#9b9999);
+    border-radius: 90px;
+    transition: 0.4s;
+    
+}
+input{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+input:checked+label{
+    background: #414040;
+
+}
+input:checked+label::after{
+    left: 240px;
+    transform: translateX(-100%);
+    background: linear-gradient(180deg,#777777,#3a3a3a);
+    border-radius: 90px;
+    transition: 0.4s;    
+}
+label:active::after {
+    width: 130px;
+}
+.elemento_cambiante{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    color: black;
+    position: absolute;
+    z-index: -1;
+    transform-style: 0.4s;
+}
+input:checked+label+.elemento_cambiante{
+    background: black;
+    color: white;
+}
+label svg{
+    position:  absolute;
+    width: 60px;
+    top: -344px;
+    z-index: 2;
+}
+label svg.sol{
+    left: 25px;
+    transition: 0.04s;
+    fill: #d1e70b;
+    
+}
+label svg.luna{
+    left: 165px;
+    transition: 0.04s;
+    fill: #c5c5c7;
+}
+input:checked+label svg.sol{
+    fill: #3a3a3a;
+}
+input:checked+label svg.luna{
+    fill: #ffffff;
+}

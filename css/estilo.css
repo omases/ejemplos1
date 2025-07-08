@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* line 1, D:/diseño web om/Ejemplos1/sass/parcial1.scss */
+ol, ul, html {
+  margin: 5;
+  padding: 5;
+}
+
+/* line 2, D:/diseño web om/Ejemplos1/sass/parcial2.scss */
+.control {
+  background-color: aqua;
+  color: black;
+}
+
+/* line 6, D:/diseño web om/Ejemplos1/sass/parcial2.scss */
+.secundario {
+  background-color: #f2c5e5;
+  color: black;
+}
+
+/* line 12, D:/diseño web om/Ejemplos1/sass/estilo.scss */
+body {
+  background-color: #9bc9a5;
+  color: darkblue;
+  font-size: 18px;
+}
+
+/* line 18, D:/diseño web om/Ejemplos1/sass/estilo.scss */
+#container {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 630px;
+  background-color: #90b8ec;
+}
+
+/* line 23, D:/diseño web om/Ejemplos1/sass/estilo.scss */
+h1 {
+  background-color: #e788bd;
+}
+
+/* line 27, D:/diseño web om/Ejemplos1/sass/estilo.scss */
+a {
+  color: #90b8ec;
+}
+
+/* anidamiento/*/
+/* line 31, D:/diseño web om/Ejemplos1/sass/estilo.scss */
+nav {
+  font-family: helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-overflow: hidden;
+}
+
+/* line 32, D:/diseño web om/Ejemplos1/sass/estilo.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 37, D:/diseño web om/Ejemplos1/sass/estilo.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 40, D:/diseño web om/Ejemplos1/sass/estilo.scss */
+nav a {
+  display: block;
+  padding: 6px 12 px;
+  text-decoration: none;
+}
+
+/*  vab ul  */
+
+/*# sourceMappingURL=estilo.css.map */

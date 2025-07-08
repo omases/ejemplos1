@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "estilo.css",
+	"sources": [
+		"../sass/estilo.scss",
+		"../sass/parcial1.scss",
+		"../sass/parcial2.scss"
+	],
+	"sourcesContent": [
+		"\r\n@import \"parcial1\";\r\n@import \"parcial2\";\r\n\r\n$colordefondo: #9bc9a5;\r\n$colorDeTexto: darkblue;\r\n$TamayoFuente: 18px;\r\n$mifuente: Arial, Helvetica, sans-serif;\r\n$miAncho: 630px;\r\n$colorsuave: #90b8ec;\r\n\r\nbody{\r\n    background-color: $colordefondo;\r\n    color: $colorDeTexto;\r\n    font-size: $TamayoFuente;\r\n    \r\n}\r\n#container{\r\n    font-family: $mifuente;\r\n    width: $miAncho;\r\n    background-color: $colorsuave;\r\n}\r\nh1{\r\n    $colorsuave: rgb(231, 136, 189) ;\r\n    background-color: $colorsuave;\r\n}\r\na{\r\n    color: $colorsuave;\r\n}\r\n/* anidamiento/*/\r\nnav {\r\n    ul {\r\n        margin: 0;\r\n        padding: 0;\r\n        list-style: none;\r\n    }\r\n    li {\r\n        display: inline-block;\r\n    }\r\n    a {\r\n        display: block;\r\n        padding: 6px 12 px;\r\n        text-decoration: none;\r\n    }\r\n    font: {\r\n        family: helvetica, sans-serif;\r\n        size: 21px;\r\n        weight: bold;\r\n    }\r\n    text: {\r\n        align: center;\r\n        transform: uppercase;\r\n        overflow: hidden;\r\n    }\r\n\r\n}\r\n\r\n\r\n/*  vab ul  */",
+		"ol, ul, html {\r\n    \r\n    margin: 5;\r\n    padding: 5;\r\n}",
+		"$colorFondo: aqua;\r\n.control{\r\n    background-color: $colorFondo;\r\n    color: black;\r\n}\r\n.secundario{\r\n    background-color: #f2c5e5;\r\n    color: black;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";;ACAA,AAAA,EAAE,EAAE,EAAE,EAAE,IAAI,CAAC;EAET,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;;ACHD,AAAA,QAAQ,CAAA;EACJ,gBAAgB,EAFP,IAAI;EAGb,KAAK,EAAE,KAAK;CACf;;;AACD,AAAA,WAAW,CAAA;EACP,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;CACf;;;AFGD,AAAA,IAAI,CAAA;EACA,gBAAgB,EARL,OAAO;EASlB,KAAK,EARM,QAAQ;EASnB,SAAS,EARE,IAAI;CAUlB;;;AACD,AAAA,UAAU,CAAA;EACN,WAAW,EAXJ,KAAK,EAAE,SAAS,EAAE,UAAU;EAYnC,KAAK,EAXC,KAAK;EAYX,gBAAgB,EAXP,OAAO;CAYnB;;;AACD,AAAA,EAAE,CAAA;EAEE,gBAAgB,EADH,OAAkB;CAElC;;;AACD,AAAA,CAAC,CAAA;EACG,KAAK,EAlBI,OAAO;CAmBnB;;AACD,iBAAiB;;AACjB,AAAA,GAAG,CAAC;EAeI,WAAM,EAAE,qBAAqB;EAC7B,SAAI,EAAE,IAAI;EACV,WAAM,EAAE,IAAI;EAGZ,UAAK,EAAE,MAAM;EACb,cAAS,EAAE,SAAS;EACpB,aAAQ,EAAE,MAAM;CAGvB;;;AAzBD,AACI,GADD,CACC,EAAE,CAAC;EACC,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;CACnB;;;AALL,AAMI,GAND,CAMC,EAAE,CAAC;EACC,OAAO,EAAE,YAAY;CACxB;;;AARL,AASI,GATD,CASC,CAAC,CAAC;EACE,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,SAAS;EAClB,eAAe,EAAE,IAAI;CACxB;;AAeL,cAAc"
+}
